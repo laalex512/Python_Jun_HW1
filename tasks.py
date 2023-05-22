@@ -74,6 +74,10 @@ def task8():
         spaces = " " * (rows - i)
         stars = "*" * (2 * i - 1)
         print(spaces + stars + spaces)
+    
+    for i in range(1, rows + 1):
+        stars = "*" * (2 * i - 1)
+        print(f"{stars:^{rows * 2}}")
 
 
 # task8()
